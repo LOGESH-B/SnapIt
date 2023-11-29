@@ -9,7 +9,6 @@ import 'package:snap_it/components/camera_upper_row.dart';
 import 'package:snap_it/components/snap_tag.dart';
 import 'package:snap_it/controllers/camera_controller.dart';
 import 'package:snap_it/controllers/position_controller.dart';
-import 'package:snap_it/views/home.dart';
 
 class CameraPage extends StatefulWidget {
   const CameraPage({super.key});
@@ -68,8 +67,6 @@ class _CameraPageState extends State<CameraPage> {
   @override
   Widget build(BuildContext context) {
     //get device ratio
-    final size = MediaQuery.of(context).size;
-    final deviceRatio = size.width / size.height;
     return cameraController != null
         ? SafeArea(
           child: Scaffold(
@@ -143,6 +140,6 @@ class _CameraPageState extends State<CameraPage> {
               ),
             ),
           );
-    ;
+    
   }
 }
