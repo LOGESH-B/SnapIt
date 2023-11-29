@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:snap_it/views/home.dart';
+
 import 'package:snap_it/views/permission_info.dart';
 
 void main() async{

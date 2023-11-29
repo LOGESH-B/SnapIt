@@ -4,7 +4,7 @@ import 'package:snap_it/controllers/permission_controller.dart';
 
 class PermissionInfo extends StatelessWidget {
   PermissionInfo({super.key});
-  PermissionInfoController permissionInfoController =
+  final PermissionInfoController permissionInfoController =
       Get.put(PermissionInfoController());
   @override
   Widget build(BuildContext context) {

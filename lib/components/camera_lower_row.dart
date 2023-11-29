@@ -13,8 +13,8 @@ class CameraLowerComponents extends StatelessWidget {
   final CameraController cameraController;
   final startCamera;
   final cameraLowerController = Get.put(CameraLowerController());
-  CameraPageController cameraPageController = Get.find();
-  PositionController positionController = Get.find();
+  final CameraPageController cameraPageController = Get.find();
+  final PositionController positionController = Get.find();
 
   @override
   Widget build(BuildContext context) {

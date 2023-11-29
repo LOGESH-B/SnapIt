@@ -6,7 +6,7 @@ import 'package:screenshot/screenshot.dart';
 import 'package:snap_it/components/snap_tag.dart';
 import 'package:snap_it/controllers/edit_controller.dart';
 import 'package:snap_it/controllers/position_controller.dart';
-import 'package:snap_it/views/cameraPage..dart';
+
 
 import 'editPage.dart';
 
@@ -15,8 +15,8 @@ class ImagePreview extends StatelessWidget {
   final ScreenshotController screenshotController =
       Get.put(ScreenshotController());
   final byte_img;
-  EditController editController = Get.put(EditController());
-  PositionController positionController = Get.put(PositionController());
+  final EditController editController = Get.put(EditController());
+  final PositionController positionController = Get.put(PositionController());
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -70,6 +70,5 @@ class ImagePreview extends StatelessWidget {
         child: Icon(Icons.save_alt_outlined),
       ),
     );
-    ;
   }
 }

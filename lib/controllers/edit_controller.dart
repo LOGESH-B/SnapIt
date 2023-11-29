@@ -21,7 +21,9 @@ class EditController extends GetxController {
   late ScreenshotController screenshotController;
   File pickedimage = File("");
 
+  @override
   onInit() {
+    super.onInit();
     screenshotController = ScreenshotController();
   }
 
