@@ -86,7 +86,7 @@ class _CameraPageState extends State<CameraPage> {
                                   size: const Size(480, 600),
                                   alignment: Alignment.center,
                                   child: CameraPreview(cameraController!)))),
-                      Tag(controller: controller, top: 435.0, left: 5.0)
+                      Tag(controller: controller, top: Get.height*0.53, left: Get.width*0.01)
                     ],
                   ),
                   // Expanded(child: Container()),

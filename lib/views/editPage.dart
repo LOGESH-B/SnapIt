@@ -111,7 +111,7 @@ class _EditBoardState extends State<EditBoard> {
       resizeToAvoidBottomInset: false,
       appBar: AppBar(
         title: const Text('Edit'),
-        backgroundColor: Color(0xFF7e3ab5),
+        backgroundColor: Color(0xFF598ae4),
         actions: [
           IconButton(onPressed: () {}, icon: Icon(Icons.more_vert_outlined))
         ],

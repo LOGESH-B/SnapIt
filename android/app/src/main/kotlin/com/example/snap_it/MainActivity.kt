@@ -1,4 +1,4 @@
-package com.example.snap_it
+package com.snapit.SnapIt
 
 import io.flutter.embedding.android.FlutterActivity
 

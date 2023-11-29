@@ -9,13 +9,14 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Color(0xFF598ae4),
         title: Text("SnapIt"),
         centerTitle: true,
       ),
       body: Container(
         child: Center(
           child:
-              ElevatedButton(onPressed: () => Get.to(CameraPage()), child: Text("Take Your Tag")),
+              ElevatedButton(onPressed: () => Get.to(CameraPage()), child: Text("Take Your Tag"),style: ElevatedButton.styleFrom(backgroundColor: Color(0xFF598ae4)),),
         ),
       ),
     );

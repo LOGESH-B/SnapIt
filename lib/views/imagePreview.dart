@@ -22,7 +22,7 @@ class ImagePreview extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Preview"),
-        backgroundColor: Color(0xFF7e3ab5),
+        backgroundColor: Color(0xFF598ae4),
         leading: IconButton(
           icon: Icon(Icons.arrow_back),
           onPressed: () => {
@@ -66,7 +66,7 @@ class ImagePreview extends StatelessWidget {
           editController.saveimage(bytes);
           Get.to(() => ImagePreview(byte_img: bytes));
         },
-        backgroundColor: Color(0xFF7e3ab5),
+        backgroundColor: Color(0xFF598ae4),
         child: Icon(Icons.save_alt_outlined),
       ),
     );
